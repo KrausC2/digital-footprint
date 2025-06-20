@@ -1,2 +1,2 @@
 # digital-footprint
-Source code for personal portfolio and blog; this repository contains my web projects, articles, and professional information
+Source code for my personal portfolio and blog created over a 6 week period (and beyond) as a holiday project; this repository contains web projects, articles, and professional information
