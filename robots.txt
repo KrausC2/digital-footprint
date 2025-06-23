@@ -1,2 +1,2 @@
-//stub
-//To be explored at a later date
+#stub
+#To be explored at a later date; practice allowing/restricting web crawlers
