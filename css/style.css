@@ -18,6 +18,7 @@
 }
 
 /* Header styles */
+/* Group better; differentiate application */
 header {
     display: flex;
     justify-content: space-evenly;
@@ -25,19 +26,18 @@ header {
     width: 100%;
 }
 
-/* Body styles */
 body {
     font-family: "Century", "Century Gothic", "Century Schoolbook", serif;
     font-size: 24px;
     font-weight: 300;
 }
 
-/* Group better; differentiate application */
-
-/* Link styles */
 a:link {
     color: #000000;
     text-decoration: none;
+    /* if put on hover, snaps OFF */
+    transition: color 0.4s ease, transform 0.4s ease;
+    /* display: inline-block; */
 }
 
 a:visited {
@@ -47,7 +47,8 @@ a:visited {
 
 a:hover {
     color: #4682B4;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    transform: translateY(-3px);
 }
 
 a:active {
